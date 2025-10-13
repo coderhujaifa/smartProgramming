@@ -3,8 +3,8 @@ package smartprogramming;
 
 
 public class Variables {
-	int a = 10 ;
-	static int b = 20;
+	int a = 10 ; //Instance Variables
+	static int b = 20; //static Variables
 	public static void main(String[] args) {
 		Variables s = new Variables();
 		System.out.println(s.a);
@@ -18,6 +18,8 @@ public class Variables {
 		Variables s1 = new Variables();
 		System.out.println(s1.a);
 		System.out.println(s1.b);
+		
+		
     } 
 }
 
